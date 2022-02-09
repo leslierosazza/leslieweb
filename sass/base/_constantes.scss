@@ -1,0 +1,44 @@
+// VARIABLES
+$font-kaushan: 'kaushan Script', cursive;
+$font-merri: 'Merriweather', serif;
+$font-mont: 'Montserrat', sans-serif;
+$font-roboto: 'Roboto Slab', serif;
+
+.contenedor{
+    //background-color: peru;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block{
+    border: 1px solid #fec503;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.titulo{
+    color: #fec503;
+    font-size: 2.5rem;
+    font-family: $font-mont;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 1.5rem 3.5rem;
+}
+
+.estilo{
+    cursor: pointer;
+    font-size: 4rem;
+}
+.pl-1{
+    padding-left: 3.5rem;
+}
+.pb-1{
+    padding-bottom: 1.5rem;
+}
+.ff-1{
+    font-family: $font-mont;
+}
+.color-black{
+    color: black;
+}

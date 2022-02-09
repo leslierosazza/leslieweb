@@ -1,0 +1,20 @@
+.perfil{
+    &__contenedor{
+        &__contenido{ 
+            &__descripcion{
+                &--texto{
+                    font-size: 1.2rem;
+                }
+            }
+            &__contacto{
+                &--subtitulo{
+                    font-size: 2rem;
+                    text-decoration: underline;
+                }
+                &--datos{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

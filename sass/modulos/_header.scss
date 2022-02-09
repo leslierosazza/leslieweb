@@ -1,0 +1,35 @@
+.header{
+    &__nav{
+        &__contenedor{
+            display: flex;
+            justify-content: space-between;
+            font-size: 2.8rem;
+            &--logo{
+                // color: #fec503;
+                // font-family: $font-kaushan;
+                // font-size: 2.8rem;
+                // background-image: url(../img/Logo.png);
+                display: block;
+                width: 9.1;
+                padding: 1rem 1.5rem;
+            }
+            &__menu{
+                display: flex;
+                margin-top: auto;
+                &__item{
+                    &--link{
+                        font-size: 1.4rem;
+                        text-transform: uppercase;
+                        display: inline-block;
+                        padding: 1rem 1.5rem;
+                        transition: all .3s;
+                    }
+                    &--link:hover{
+                        color: #fec503;
+                        transition: all .3s;
+                    }
+                }
+            }
+        }
+    }
+}
