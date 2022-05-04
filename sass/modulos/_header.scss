@@ -14,6 +14,9 @@
                         display: inline-block;
                         padding: 1rem 1.5rem;
                         transition: all .3s;
+                        @media only screen and (max-width:$bp-large) {
+                            font-size: 1rem;
+                        }
                     }
                     &--link:hover{
                         color: #fec503;
@@ -21,6 +24,19 @@
                     }
                 }
             }
+        }
+    }
+    &__banner{
+        text-align: center;
+        margin: 1.5rem 0;
+        img{
+            border: 1px solid #000;
+            border-radius: 1rem;
+            //width: 100%;
+            width: 98vw;
+            height: 75vh;
+            background-position: center;
+            //background-size: cover;
         }
     }
 }
