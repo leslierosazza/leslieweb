@@ -6,17 +6,40 @@ window.addEventListener('load', function () {
     imagenes[3] = 'img/certificados/diploma-illustrator_page-0001.jpg';
     imagenes[4] = 'img/certificados/diploma-photoshop-basico_page-0001.jpg';
 
+    var desc = [];
+    desc[0] = 'CURSO DE CSS GRID LAYOUT';
+    desc[1] = 'CURSO DE DISEÑO HTML Y CSS PARA EMAILS';
+    desc[2] = 'CURSO DE PROGRAMACION BASICA';
+    desc[3] = 'CURSO DE ILUSTRATOR';
+    desc[4] = 'CURSO DE PHOTOSHOP';
+
+    var Indiceimg = 0;
     var i = 0;
-    tiempo = 2000;
+    var tiempo = 3000;
 
     function cambiarImagenes(){
-        document.slider.src = imagenes[i];
+        document.slider.src = imagenes[Indiceimg];
+        //document.querySelector('#menu') =desc[i];
 
-        if(i < 5){
-            i++;
-        }else{
-            i = 0;
-        }
+        let html = ''; 
+
+         if(Indiceimg < 5){
+            
+            //if(i < 5){
+               Indiceimg++;
+               i = `${desc[i]}`;
+           //}
+            //i++;
+            /* for(let i = 0; i < desc.length; i++){
+               html += `${desc[i]}`;
+            }
+            console.log(html);
+            const menu = document.querySelector('#menu');
+            menu.innerHTML = html; */
+            
+         }else{
+            Indiceimg = 0;
+         }
     }
     setInterval(cambiarImagenes, tiempo);
 });
