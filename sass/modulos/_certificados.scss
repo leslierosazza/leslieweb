@@ -9,7 +9,8 @@
                 width: 80%;
             }
             &--imagen {
-                margin: 2.5rem 3rem;
+                margin: 5.5rem 0.5rem;
+                //margin: 2.5rem 3rem;
                 //border: 0.1rem solid black;
                 ul, li {
                     padding: 0;
@@ -19,8 +20,8 @@
                 
                 ul.slider{
                   position: relative;
-                  width: 19.3rem;
-                  height: 18.7rem;
+                  //width: 19.3rem;
+                  //height: 18.7rem;
                   @media only screen and (max-width:$bp-large){
                       width: 103%;
                       height: 46rem;

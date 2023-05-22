@@ -246,7 +246,7 @@ header img {
   }
 }
 .certificados__contenedor__caja--imagen {
-  margin: 2.5rem 3rem;
+  margin: 5.5rem 0.5rem;
 }
 .certificados__contenedor__caja--imagen ul, .certificados__contenedor__caja--imagen li {
   padding: 0;
@@ -255,8 +255,6 @@ header img {
 }
 .certificados__contenedor__caja--imagen ul.slider {
   position: relative;
-  width: 19.3rem;
-  height: 18.7rem;
 }
 @media only screen and (max-width: 62em) {
   .certificados__contenedor__caja--imagen ul.slider {
