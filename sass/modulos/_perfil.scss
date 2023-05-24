@@ -4,16 +4,45 @@
         &__contenido{ 
             &__descripcion{
                 &--texto{
-                    font-size: 1.2rem;
+                    font-size: 2.2rem;
+                    @media only screen and (max-width:$bp-large) {
+                        font-size: 3.2rem;
+                    }
+                    @media only screen and (max-width:$bp-medium) {
+                        font-size: 2rem;
+                    }
                 }
             }
             &__contacto{
                 &--subtitulo{
-                    font-size: 2rem;
+                    font-size: 2.5rem;
                     text-decoration: underline;
+                    @media only screen and (max-width:$bp-large) {
+                        font-size: 3.2rem;
+                    }
+                    @media only screen and (max-width:$bp-medium) {
+                        font-size: 2rem;
+                    }
+                }
+                &--icono{
+                    background-image: url("/img/iconos/file-pdf-regular.svg");
+                    // width: 120px;
+                    // height: 120px;
+                    cursor: pointer;
                 }
                 &--datos{
-                    font-size: 1.2rem;
+                    font-size: 2.2rem;
+                    @media only screen and (max-width:$bp-large) {
+                        font-size: 3.2rem;
+                    }
+                    @media only screen and (max-width:$bp-medium) {
+                        font-size: 2rem;
+                    }
+                }
+                &--svg{
+                    width: 150px;
+                    height: 150px;
+                    margin: 14px 35px;
                 }
             }
         }

@@ -2,19 +2,20 @@
     &__contenedor{
         &__caja{
             width: 38rem;
-            height: 40rem;
+            height: 32rem;
             border: 1px solid #fec503;
-            margin: 1rem auto;
+            margin: 0 auto;
             @media only screen and (max-width:$bp-large) {
                 width: 80%;
+                height: 23rem;
             }
             &--imagen {
-                margin: 5.5rem 0.5rem;
+                margin: 1.5rem 0.5rem;
                 //margin: 2.5rem 3rem;
                 //border: 0.1rem solid black;
                 ul, li {
-                    padding: 0;
-                    margin: 0;
+                    
+                    margin: auto;
                     list-style: none;
                 }
                 
@@ -23,8 +24,8 @@
                   //width: 19.3rem;
                   //height: 18.7rem;
                   @media only screen and (max-width:$bp-large){
-                      width: 103%;
-                      height: 46rem;
+                      width: 91%;
+                      height: 21rem;
                   }
                 }
                 
@@ -86,8 +87,8 @@
                     margin: 0 4rem;
                 }
                 @media only screen and (max-width:$bp-small) {
-                    width: 50vw;
-                    margin: 0 2.5rem;
+                    width: 67vw;
+                    margin: 0 1.5rem;
                 }
             }
             &--nombre {
