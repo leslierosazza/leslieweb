@@ -43,3 +43,19 @@ window.addEventListener('load', function () {
     }
     setInterval(cambiarImagenes, tiempo);
 });
+
+const nav = document.querySelector('.header__nav');
+const menu = document.querySelector('.header__nav__contenedor__menu');
+const btn = document.querySelector('.header__nav__contenedor--btnMenu');
+
+window.addEventListener('scroll', function(){
+   if(this.window.scrollY > 0){
+      nav.classList.add('active');
+   }else{
+      nav.classList.remove('active');
+   }
+
+   btn.addEventListener('click', function(){
+      menu.classList.toggle('mostrarMenu');
+   })
+});
