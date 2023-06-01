@@ -59,3 +59,18 @@ window.addEventListener('scroll', function(){
       menu.classList.toggle('mostrarMenu');
    })
 });
+
+window.onscroll = function(){
+   if(document.documentElement.scrollTop > 100){
+      document.querySelector('.go-top-contaniner').classList.add('show');
+   }else{
+      document.querySelector('.go-top-contaniner').classList.remove('show');
+   }
+}
+
+document.querySelector('.go-top-contaniner').addEventListener('click', () => {
+   window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+   })
+});
