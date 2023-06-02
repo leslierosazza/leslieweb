@@ -40,6 +40,9 @@ $font-roboto: 'Roboto Slab', serif;
 .mb-2{
     margin-bottom: 2rem;
 }
+.mb-7{
+    margin-bottom: 7rem;
+}
 .pl-1{
     padding-left: 3.5rem;
 }
@@ -64,6 +67,9 @@ $font-roboto: 'Roboto Slab', serif;
 .pt-10{
     padding-top: 10rem;
 }
+.mt-5 {
+    margin-top: 5rem;
+}
 .ff-1{
     font-family: $font-mont;
 }
@@ -72,6 +78,13 @@ $font-roboto: 'Roboto Slab', serif;
 }
 .color-black{
     color: black;
+}
+.resumen-n2{
+    font-family: $font-merri;
+    font-size: 1.6rem;
+    color: #6c757d;
+    text-align: center;
+    font-style: italic;
 }
 .resumen-n3{
     font-family: $font-roboto;
@@ -85,6 +98,25 @@ $font-roboto: 'Roboto Slab', serif;
 }
 .text-center{
     text-align: center;
+}
+.height-100 {
+    height: 100%;
+}
+.btn-amarillo {
+    color: white;
+    background-color: #fed136;
+    transition: all 0.3s;
+}
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
 }
 .logo{
     color: #fec503;
