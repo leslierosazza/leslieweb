@@ -74,3 +74,34 @@ document.querySelector('.go-top-contaniner').addEventListener('click', () => {
       behavior: 'smooth'
    })
 });
+
+/*const $form = document.querySelector('#form');
+const $buttonMailto = document.querySelector('#trucazo');
+
+$form.addEventListener('submit', handleSubmit);
+
+ function handleSubmit(event){
+   event.preventDefault();
+   const form = new FormData(this);
+   $buttonMailto.setAttribute('href', `mailto:leslierosazza@gmail.com?subject=nombre ${form.get('name')} correo ${form.get('correo')} celular ${form.get('celular')}&body=${form.get('mensaje')}`);
+   $buttonMailto.click();
+} */
+
+const $form = document.querySelector('#form');
+$form.addEventListener('submit', handleSubmit);
+async function handleSubmit(event){
+   event.preventDefault();
+   const form = new FormData(this);
+   const response = await fetch(this.action, {
+      method: this.method, 
+      body: form, 
+      headers: {
+      'Accept': 'application/json'
+      }
+   });
+
+   if(response.ok){
+      this.reset();
+      alert('Gracias por contactarte, te escribire pronto :)');
+   }
+};

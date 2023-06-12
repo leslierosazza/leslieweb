@@ -170,27 +170,29 @@
         <div class="contacto__contenedor contenedor">
             <h2 class="titulo-n2 mb-2">contactos</h2>
             <p class="resumen-n2 mb-7">Me pueden escribir para solicitar cotizaciones.</p>
-            <form action="" class="contacto__contenedor__form">
+            <form action="https://formspree.io/f/xzbqnbro"
+            method="POST" class="contacto__contenedor__form" id="form">
                 <div class="contacto__contenedor__form__col">
                     <div class="contacto__contenedor__form__col--formGroup">
-                        <input type="text" placeholder="Tu nombre">
+                        <input type="text" placeholder="Tu nombre" name="name" id="name" required>
                     </div>
                     <div class="contacto__contenedor__form__col--formGroup">
-                        <input type="text" placeholder="Tu correo">
+                        <input type="text" placeholder="Tu correo" name="correo" id="correo" required>
                     </div>
                     <div class="contacto__contenedor__form__col--formGroup">
-                        <input type="text" placeholder="Tu numero">
+                        <input type="text" placeholder="Tu numero" name="celular" id="celular" required>
                     </div>
                 </div>
                 <div class="contacto__contenedor__form__col">
                     <div class="contacto__contenedor__form__col--formGroup">
-                        <textarea cols="30" rows="5" placeholder="Tu Mensaje" class="height-100"></textarea>
+                        <textarea cols="30" rows="5" placeholder="Tu Mensaje" name="mensaje" id="mensaje" class="height-100" required></textarea>
                     </div>
-                </div>
+                </div> 
                 <div class="contacto__contenedor__form--btnBox text-center mt-5">
                     <input type="submit" class="btn btn-amarillo" value="enviar mensaje">
                 </div>
             </form>
+            <a href="mailto:leslierosazza@gmail.com" id="trucazo"></a>
         </div>
     </section>
     <footer class="footer">
