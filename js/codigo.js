@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+window.addEventListener('load', function() {
     var imagenes = [];
     imagenes[0] = 'img/certificados/Especialista-en-desarrollo-web-profesional-1.jpg';
     imagenes[1] = 'img/certificados/diploma-css-grid-layout-2017_page-0001.jpg';
@@ -35,6 +35,7 @@ const btn = document.querySelector('.header__nav__contenedor--btnMenu');
 
 window.addEventListener('scroll', function(){
    if(this.window.scrollY > 0){
+      //console.log('hiciste scroll');
       nav.classList.add('active');
    }else{
       nav.classList.remove('active');

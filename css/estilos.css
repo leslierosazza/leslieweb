@@ -119,6 +119,10 @@ header img {
   color: black;
 }
 
+.color-white {
+  color: white;
+}
+
 .resumen-n2 {
   font-family: "Merriweather", serif;
   font-size: 1.6rem;
@@ -177,10 +181,51 @@ header img {
   }
 }
 
+.header {
+  background-image: url(../img/Banner.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.header__nav {
+  padding: 2.5rem 0;
+  width: 100%;
+  transition: all 0.3s;
+  position: fixed;
+  z-index: 1;
+}
+@media only screen and (max-width: 62em) {
+  .header__nav {
+    background-color: #212529;
+    padding: 1rem 0;
+    width: 88%;
+  }
+}
+.header__nav.active {
+  background-color: #212529;
+  padding: 1rem 0;
+  transition: all 0.3s;
+}
+.header__nav.active .header__nav__contenedor--logo {
+  font-size: 2rem;
+  transition: all 0.3s;
+}
 .header__nav__contenedor {
   display: flex;
   justify-content: space-between;
   font-size: 2.8rem;
+}
+.header__nav__contenedor--logo {
+  color: #fec503;
+  font-family: "kaushan Script", cursive;
+  font-size: 2.8rem;
+  padding-left: 1rem;
+  display: inline-block;
+}
+@media only screen and (max-width: 62em) {
+  .header__nav__contenedor--logo {
+    font-size: 3.5rem;
+  }
 }
 .header__nav__contenedor--btnMenu {
   border: 1px solid #000;
@@ -228,7 +273,7 @@ header img {
   font-size: 1.4rem;
   text-transform: uppercase;
   display: inline-block;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.6rem;
   transition: all 0.3s;
 }
 @media only screen and (max-width: 62em) {
@@ -582,6 +627,9 @@ header img {
 }
 .contacto__contenedor__form--btnBox {
   width: 100%;
+}
+.contacto__contenedor #trucazo {
+  opacity: 0;
 }
 
 /*# sourceMappingURL=estilos.css.map */
