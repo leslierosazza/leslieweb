@@ -14,7 +14,8 @@
             padding-right: 2rem;
             @media only screen and (max-width:$bp-large) {
                 display: flex;
-                padding: 2rem;
+                padding-top: 2rem;
+                padding-right: 0;
             }
             a{
                 display: inline-block;
