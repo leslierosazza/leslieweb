@@ -1,8 +1,8 @@
 .certificados{
     &__contenedor{
         &__caja{
-            width: 38rem;
-            height: 32rem;
+            width: 32rem;
+            height: 25rem;
             border: 1px solid #fec503;
             margin: 0 auto;
             @media only screen and (max-width:$bp-large) {
@@ -10,7 +10,7 @@
                 height: 23rem;
             }
             &--imagen {
-                margin: 1.5rem 0.5rem;
+                margin: auto;
                 //margin: 2.5rem 3rem;
                 //border: 0.1rem solid black;
                 ul, li {
