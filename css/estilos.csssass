@@ -400,8 +400,8 @@ header img {
 }
 
 .certificados__contenedor__caja {
-  width: 38rem;
-  height: 32rem;
+  width: 32rem;
+  height: 25rem;
   border: 1px solid #fec503;
   margin: 0 auto;
 }
