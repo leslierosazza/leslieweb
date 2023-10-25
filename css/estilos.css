@@ -160,6 +160,12 @@ header img {
   transition: all 0.3s;
 }
 
+.btn-amarillo:hover {
+  color: black;
+  background-color: #fec503;
+  transition: all 0.3s;
+}
+
 .btn {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
