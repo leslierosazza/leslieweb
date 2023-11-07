@@ -58,6 +58,10 @@ header img {
   }
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .estilo {
   cursor: pointer;
   font-size: 4rem;
@@ -113,6 +117,22 @@ header img {
 
 .fw {
   font-weight: bold;
+}
+
+.size-18 {
+  font-size: 1.8rem;
+}
+
+.size-2 {
+  font-size: 2rem;
+}
+
+.size-25 {
+  font-size: 2.5rem;
+}
+
+.size-1 {
+  font-size: 1rem;
 }
 
 .color-black {
@@ -192,7 +212,7 @@ header img {
 }
 
 .header {
-  background-image: url(../img/Banner.png);
+  background-image: url(../img/Banner-2.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -293,6 +313,15 @@ header img {
 .header__nav__contenedor__menu__item--link:hover {
   color: #fec503;
   transition: all 0.3s;
+}
+.header__LlamadaAccion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 170px 50px 0px 90px;
+}
+.header__LlamadaAccion--btnaccion {
+  margin-top: 15px;
 }
 .header__banner {
   text-align: center;
