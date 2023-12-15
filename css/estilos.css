@@ -664,6 +664,13 @@ header img {
   border: none;
   outline: 0;
 }
+.contacto__contenedor__form__col--formGroup .caja_texto:focus {
+  border: 2px solid #1277dd;
+}
+.contacto__contenedor__form__col--formGroup:focus:required {
+  border-color: red;
+  outline: 0 none;
+}
 .contacto__contenedor__form--btnBox {
   width: 100%;
 }
